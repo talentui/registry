@@ -6,6 +6,7 @@
     "license": "MIT",
     "scripts": {
       "build-prod": "rm -rf ./dist && npx babel index.js --out-dir dist",
+      "build": "rm -rf ./dist && npx babel index.js --out-dir dist",
       "prepublish": "yarn run build"
     },
     "devDependencies": {

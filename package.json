@@ -1,7 +1,7 @@
 {
     "name": "@talentui/registry",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "dist/index.js",
     "author": "lihe3 <lihe3@corp.beisencorp.com>",
     "license": "MIT",
     "scripts": {

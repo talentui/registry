@@ -5,7 +5,6 @@
                 "browsers": "ie > 9"
             }
         }],
-        "stage-0",
-        "react"
+        "stage-0"
     ]
 }

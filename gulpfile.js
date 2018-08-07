@@ -15,7 +15,7 @@ gulp.task("default", function() {
         .pipe(uglify())
         .pipe(
             rename(function(path) {
-                path.basename += `-${version}`;
+                path.basename += `-${version}.min`;
             })
         )
         .pipe(gulp.dest("dist/"));

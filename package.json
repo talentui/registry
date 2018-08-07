@@ -5,7 +5,7 @@
     "author": "lihe3 <lihe3@corp.beisencorp.com>",
     "license": "MIT",
     "scripts": {
-      "build": "rm -rf index.js && npx babel main.js --out-file index.js",
+      "build-prod": "rm -rf ./dist && npx babel index.js --out-dir dist",
       "prepublish": "yarn run build"
     },
     "devDependencies": {

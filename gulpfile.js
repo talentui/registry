@@ -12,11 +12,11 @@ gulp.task("default", function() {
                 presets: ["es2015"]
             })
         )
-        .pipe(uglify())
-        .pipe(
-            rename(function(path) {
-                path.basename += `-${version}.min`;
-            })
-        )
+        // .pipe(uglify())
+        // .pipe(
+        //     rename(function(path) {
+        //         path.basename += `-${version}.min`;
+        //     })
+        // )
         .pipe(gulp.dest("dist/"));
 });

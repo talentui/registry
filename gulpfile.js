@@ -12,7 +12,7 @@ gulp.task("default", function() {
                 presets: ["es2015"]
             })
         )
-        // .pipe(uglify())
+        .pipe(uglify())
         // .pipe(
         //     rename(function(path) {
         //         path.basename += `-${version}.min`;

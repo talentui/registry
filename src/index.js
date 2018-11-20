@@ -32,8 +32,8 @@
          * @param value: any
          */
         set: function(key, value) {
-            const error = helper.validateData(key);
-            if (error) return handleError(error);
+            // const error = helper.validateData(key);
+            // if (error) return handleError(error);
             //赋值
             obj[key] = value;
             const curEvent = eventStacks.find(item => item.key === key);
